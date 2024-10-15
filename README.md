@@ -1,0 +1,2 @@
+# w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02
+Repozytorium z laboratorium Języków i paradygmatów programowania
