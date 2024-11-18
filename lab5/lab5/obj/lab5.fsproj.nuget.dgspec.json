@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\lab5\\lab5.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\lab5\\lab5.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\lab5\\lab5.fsproj",
+        "projectName": "lab5",
+        "projectPath": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\lab5\\lab5.fsproj",
+        "packagesPath": "C:\\Users\\Yaroslav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\lab5\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yaroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\8.0.404\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.403, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
