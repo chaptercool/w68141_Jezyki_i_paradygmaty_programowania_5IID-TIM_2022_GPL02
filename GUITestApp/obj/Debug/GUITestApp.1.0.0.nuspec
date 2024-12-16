@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GUITestApp</id>
+    <version>1.0.0</version>
+    <authors>GUITestApp</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2c9b254c20ef405f98619fce4e0516e18ac60f25" />
+    <dependencies>
+      <group targetFramework="net8.0-windows10.0.18362">
+        <dependency id="FSharp.Core" version="9.0.100" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows10.0.18362">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Yaroslav\source\repos\chaptercool\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\GUITestApp\bin\Debug\net8.0-windows10.0.18362.0\GUITestApp.runtimeconfig.json" target="lib\net8.0-windows10.0.18362\GUITestApp.runtimeconfig.json" />
+    <file src="C:\Users\Yaroslav\source\repos\chaptercool\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\GUITestApp\bin\Debug\net8.0-windows10.0.18362.0\GUITestApp.dll" target="lib\net8.0-windows10.0.18362\GUITestApp.dll" />
+  </files>
+</package>
