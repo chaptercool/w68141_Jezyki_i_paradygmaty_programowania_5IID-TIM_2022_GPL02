@@ -1,6 +1,8 @@
 ﻿open System
 open System.Drawing
 open System.Windows.Forms
+open Microsoft.Data.SqlClient
+open System.IO
 open AdminPanel
 open BookPanel
 
@@ -62,10 +64,16 @@ AppointmentButton.Click.Add(fun _ ->
     )
 
     ConnectionTestDialog.Controls.Add(PBar)
-    ConnectionTestDialog.Show()
-    
-    BookWindow.Show()
-    ConnectionTestDialog.Close()
+    try
+        ConnectionTestDialog.Show()
+        let connectionString = File.ReadAllText(Path.Combine(__SOURCE_DIRECTORY__, "ipconfig.txt"))
+        use connection = new SqlConnection(connectionString)
+        connection.Open()
+        BookWindow.Show()
+        ConnectionTestDialog.Close()
+    with
+    | ex -> MessageBox.Show("Błąd połączenia z bazą danych!", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error) |> ignore
+            ConnectionTestDialog.Close()
 )
 layout.Controls.Add(AppointmentButton, 0, 2)
 

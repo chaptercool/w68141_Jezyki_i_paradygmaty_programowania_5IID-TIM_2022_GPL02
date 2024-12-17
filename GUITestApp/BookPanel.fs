@@ -124,7 +124,6 @@ let SQLQueryResults = new DataGridView(
 SQLQueryResults.Columns.Add(new DataGridViewTextBoxColumn(Name = "TerminID", Visible = false))
 SQLQueryResults.Columns.Add(new DataGridViewTextBoxColumn(Name = "Lekarz"))
 SQLQueryResults.Columns.Add(new DataGridViewTextBoxColumn(Name = "Godzina"))
-SQLQueryResults.Columns.Add(new DataGridViewButtonColumn(Name = "Akcja", Text = "Zarezerwuj", UseColumnTextForButtonValue = true))
 
 let DockbarBottom = new TableLayoutPanel(
     Dock = DockStyle.Bottom,
@@ -177,6 +176,9 @@ BookButton.Click.Add(fun _ ->
             let textBox = new TextBox(Dock = DockStyle.Top)
             let buttonOk = new Button(Text = "Zarezerwuj", Dock = DockStyle.Bottom)
             let buttonCancel = new Button(Text = "Anuluj", Dock = DockStyle.Bottom)
+            form.MaximizeBox <- false
+            form.MinimizeBox <- false
+            form.StartPosition <- FormStartPosition.CenterScreen
             form.Controls.Add(textBox)
             form.Controls.Add(buttonOk)
             form.Controls.Add(buttonCancel)
