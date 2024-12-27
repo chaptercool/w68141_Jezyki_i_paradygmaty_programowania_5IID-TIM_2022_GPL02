@@ -4,9 +4,17 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows10.0.18362.0</TargetFramework>
     <UseWindowsForms>True</UseWindowsForms>
+    <ApplicationIcon>imageres_5356.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AppointmentCheckDr.fs" />
+    <Compile Include="AppointmentCheckUser.fs" />
+    <Content Include="imageres_106.ico" />
+    <Content Include="imageres_99.ico" />
+    <Content Include="imageres_104.ico" />
+    <Content Include="imageres_81.ico" />
+    <Content Include="imageres_5356.ico" />
     <Content Include="ipconfig.txt" />
     <Compile Include="BookPanel.fs" />
     <Compile Include="GuiExample.fs" />

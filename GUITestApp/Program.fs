@@ -5,6 +5,12 @@ open Microsoft.Data.SqlClient
 open System.IO
 open AdminPanel
 open BookPanel
+open AppointmentCheckUser
+open AppointmentCheckDr
+
+let iconMain = Icon.ExtractAssociatedIcon(Path.Combine(__SOURCE_DIRECTORY__, "imageres_5356.ico"))
+let iconInfo = Icon.ExtractAssociatedIcon(Path.Combine(__SOURCE_DIRECTORY__, "imageres_81.ico"))
+let iconSecure = Icon.ExtractAssociatedIcon(Path.Combine(__SOURCE_DIRECTORY__, "imageres_104.ico"))
 
 let MainWindow = new Form(
     Text = "System Informacji Medycznej",
@@ -12,19 +18,22 @@ let MainWindow = new Form(
     StartPosition = FormStartPosition.CenterScreen,
     MaximizeBox = false,
     MinimizeBox = true,
-    BackColor = Color.White
+    BackColor = Color.White,
+    Icon = iconMain
 )
 
 let layout = new TableLayoutPanel(
     Dock = DockStyle.Fill,
-    RowCount = 4,
+    RowCount = 6,
     ColumnCount = 1,
     Padding = new Padding(20)
 )
-layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10.0f)) |> ignore
-layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10.0f)) |> ignore
-layout.RowStyles.Add(new RowStyle(SizeType.Percent, 60.0f)) |> ignore
-layout.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0f)) |> ignore
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10.0f)) |> ignore //settings 0
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10.0f)) |> ignore //header 1
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 60.0f)) |> ignore //find 2
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0f)) |> ignore //check 3
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0f)) |> ignore //login 4
+layout.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0f)) |> ignore //info 5
 
 let Header = new Label(
     Text = "System Informacji Medycznej",
@@ -77,12 +86,25 @@ AppointmentButton.Click.Add(fun _ ->
 )
 layout.Controls.Add(AppointmentButton, 0, 2)
 
+let CheckButton = new Button(
+    Text = "Sprawdź swoje wizyty",
+    Size = new Size(200, 50),
+    Anchor = AnchorStyles.None
+)
+CheckButton.Click.Add(fun _ ->
+    CheckWindowQuestion.Show()
+)
+layout.Controls.Add(CheckButton, 0, 3)
+
 let LoginButtonn = new Button(
     Text = "Portal lekarza",
     Size = new Size(200, 50),
     Anchor = AnchorStyles.None
 )
-layout.Controls.Add(LoginButtonn, 0, 3)
+LoginButtonn.Click.Add(fun _ ->
+    CheckDrQuestion.Show()
+)
+layout.Controls.Add(LoginButtonn, 0, 4)
 
 MainWindow.Controls.Add(layout)
 
@@ -99,16 +121,19 @@ SettingsButton.Click.Add(fun _ ->
         MaximizeBox = false,
         StartPosition = FormStartPosition.CenterScreen,
         Size = new Size(300, 200),
-        Text = "Wprowadź hasło"
+        Text = "Wprowadź hasło",
+        BackColor = Color.White,
+        Icon = iconSecure
     )
 
     let PasswordBox = new TextBox(
         PasswordChar = '•',
-        Dock = DockStyle.Top
+        Dock = DockStyle.Top,
+        TextAlign = HorizontalAlignment.Center
     )
 
     let SubmitButton = new Button(
-        Text = "Zaloguj",
+        Text = "Zaloguj się",
         Dock = DockStyle.Bottom
     )
 
@@ -119,11 +144,58 @@ SettingsButton.Click.Add(fun _ ->
     SubmitButton.Click.Add(fun _ ->
         if PasswordBox.Text = "admin" then
             AdminForm.Show()
-            AdminLogin.Close()
+            AdminLogin.Hide()
         else
             MessageBox.Show("Niepoprawne hasło!", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Exclamation) |> ignore
-            AdminLogin.Close()
+            AdminLogin.Hide()
     )
+)
+
+let AboutButton = new Button(
+    //Text = "O programie",
+    Size = new Size(100, 50),
+    Location = new Point(750, 0),
+    Dock = DockStyle.Right,
+    Image = iconInfo.ToBitmap(),
+    ImageAlign = ContentAlignment.MiddleCenter
+)
+layout.Controls.Add(AboutButton, 0, 5)
+
+AboutButton.Click.Add(fun _ ->
+    let AboutWindow = new Form(
+        MinimizeBox = false,
+        MaximizeBox = false,
+        StartPosition = FormStartPosition.CenterScreen,
+        Size = new Size(300, 200),
+        Text = "O programie",
+        BackColor = Color.White,
+        Icon = iconInfo
+    )
+    let microLayout = new TableLayoutPanel(
+        Dock = DockStyle.Fill,
+        RowCount = 1,
+        ColumnCount = 2,
+        Padding = new Padding(5)
+    )
+    microLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25.0f)) |> ignore
+    microLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75.0f)) |> ignore
+
+    let AboutLabel = new Label(
+        Text = "System Informacji Medycznej\n\nAutor: Yaroslav Haivoronskyi\n\nRzeszów, 2024",
+        TextAlign = ContentAlignment.MiddleCenter,
+        Dock = DockStyle.Fill
+    )
+
+    let ProgramIcon = new PictureBox(
+        Image = iconMain.ToBitmap(),
+        Size = new Size(50, 50),
+        Dock = DockStyle.Fill
+    )
+    microLayout.Controls.Add(AboutLabel, 1,0)
+    microLayout.Controls.Add(ProgramIcon, 0, 0)
+    AboutWindow.Controls.Add(microLayout)
+
+    AboutWindow.Show()
 )
 
 Application.EnableVisualStyles()

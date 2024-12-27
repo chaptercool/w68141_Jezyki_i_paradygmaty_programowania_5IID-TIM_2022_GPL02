@@ -6,6 +6,8 @@ open System.Drawing
 open System.Windows.Forms
 open System.IO
 
+let iconMain = Icon.ExtractAssociatedIcon(Path.Combine(__SOURCE_DIRECTORY__, "imageres_5356.ico"))
+let iconQuestion = Icon.ExtractAssociatedIcon(Path.Combine(__SOURCE_DIRECTORY__, "imageres_99.ico"))
 let connectionString = File.ReadAllText(Path.Combine(__SOURCE_DIRECTORY__, "ipconfig.txt"))
 
 type Poradnia = {
@@ -60,7 +62,8 @@ let public BookWindow = new Form(
     StartPosition = FormStartPosition.CenterScreen,
     MaximizeBox = false,
     MinimizeBox = true,
-    BackColor = Color.White
+    BackColor = Color.White,
+    Icon = iconMain
 )
 
 let DockbarTop = new TableLayoutPanel(
@@ -156,7 +159,7 @@ FindButton.Click.Add(fun _ ->
                 SQLQueryResults.Rows.Add(row)
             SQLQueryResults.Visible <- true
         else
-            MessageBox.Show("Brak dostępnych terminów (Zapraszamy do medicover)", "Uwaga", MessageBoxButtons.OK, MessageBoxIcon.Error) |> ignore
+            MessageBox.Show("Brak dostępnych terminów (zapraszamy do medicover, luxmed, etc.)", "Uwaga", MessageBoxButtons.OK, MessageBoxIcon.Error) |> ignore
     with
     | ex -> MessageBox.Show("Wystąpił błąd: " + ex.Message, "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error) |> ignore
 )
@@ -179,6 +182,7 @@ BookButton.Click.Add(fun _ ->
             form.MaximizeBox <- false
             form.MinimizeBox <- false
             form.StartPosition <- FormStartPosition.CenterScreen
+            form.Icon <- iconQuestion
             form.Controls.Add(textBox)
             form.Controls.Add(buttonOk)
             form.Controls.Add(buttonCancel)
