@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("GUITestApp")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Release")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93d4bfcabc9f8bbbd36f51af04cf9c7ace7e3018")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e698634e6ffb7239a49150ea7c1b65abd7321ee")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("GUITestApp")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("GUITestApp")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
