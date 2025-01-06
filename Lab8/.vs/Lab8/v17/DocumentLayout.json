@@ -6,8 +6,8 @@
       "AbsoluteMoniker": "D:0:0:{10B3CCFF-AF21-4CF7-A5A3-643219954315}|..\\zadania\\zadania.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\zadania\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AC88A84-1EBC-4978-8250-9F6621CC5EA1}|Lab8.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\lab8\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{5AC88A84-1EBC-4978-8250-9F6621CC5EA1}|Lab8.fsproj|solutionrelative:program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+      "AbsoluteMoniker": "D:0:0:{5AC88A84-1EBC-4978-8250-9F6621CC5EA1}|przyklad.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\lab8\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{5AC88A84-1EBC-4978-8250-9F6621CC5EA1}|przyklad.fsproj|solutionrelative:program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "..\\zadania\\Program.fs",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\zadania\\Program.fs",
               "RelativeToolTip": "..\\zadania\\Program.fs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwB0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAJsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-17T15:08:06.753Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Program.fs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-17T14:31:03.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T14:31:03.597Z"
             }
           ]
         },
