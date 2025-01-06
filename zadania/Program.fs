@@ -127,7 +127,6 @@ let rec readUserList() =
         |> Array.toList
     LinkedList.fromList items
 
-// Modify the menu function
 let rec menu a = 
     printfn "\n======== MENU ========"
     printfn "1. Wczytaj liste"
