@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\appointmentcheckdr.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:appointmentcheckdr.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\bookpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
       "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:bookpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\ipconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:ipconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\appointmentcheckuser.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\adminpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:adminpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\appointmentcheckdr.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:appointmentcheckdr.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\ipconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:ipconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|c:\\users\\yaroslav\\source\\repos\\chaptercool\\w68141_jezyki_i_paradygmaty_programowania_5iid-tim_2022_gpl02\\guitestapp\\adminpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{914C77C8-3484-4AA9-AD9C-B11F35F8DCB8}|GUITestApp.fsproj|solutionrelative:adminpanel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,16 +56,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AppointmentCheckDr.fs",
               "DocumentMoniker": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\AppointmentCheckDr.fs",
               "RelativeDocumentMoniker": "AppointmentCheckDr.fs",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\AppointmentCheckDr.fs",
               "RelativeToolTip": "AppointmentCheckDr.fs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAAAOIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAANUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-27T19:10:09.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T19:10:09.315Z"
             },
             {
               "$type": "Document",
@@ -75,23 +74,21 @@
               "RelativeDocumentMoniker": "AppointmentCheckUser.fs",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\AppointmentCheckUser.fs",
               "RelativeToolTip": "AppointmentCheckUser.fs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-27T19:09:47.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T19:09:47.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ipconfig.txt",
               "DocumentMoniker": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\ipconfig.txt",
               "RelativeDocumentMoniker": "ipconfig.txt",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\ipconfig.txt",
               "RelativeToolTip": "ipconfig.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-27T17:16:25.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T17:16:25.457Z"
             },
             {
               "$type": "Document",
@@ -101,27 +98,26 @@
               "RelativeDocumentMoniker": "Program.fs",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\Program.fs",
               "RelativeToolTip": "Program.fs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAAJwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-06T13:22:48.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:22:48.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookPanel.fs",
               "DocumentMoniker": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\BookPanel.fs",
               "RelativeDocumentMoniker": "BookPanel.fs",
               "ToolTip": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\BookPanel.fs",
               "RelativeToolTip": "BookPanel.fs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAAANYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-06T12:48:06.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdminPanel.fs",
               "DocumentMoniker": "C:\\Users\\Yaroslav\\source\\repos\\chaptercool\\w68141_Jezyki_i_paradygmaty_programowania_5IID-TIM_2022_GPL02\\GUITestApp\\AdminPanel.fs",
               "RelativeDocumentMoniker": "AdminPanel.fs",
@@ -129,8 +125,7 @@
               "RelativeToolTip": "AdminPanel.fs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-16T16:15:58.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:15:58.429Z"
             }
           ]
         }
